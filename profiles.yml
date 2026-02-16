@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: YSAMMFR-SC38526
+      database: RAW
+      password: Brindhaeswar2107
+      role: Accountadmin
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: ESWAR
+      warehouse: COMPUTE_WH
+  target: dev
