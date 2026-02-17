@@ -1,3 +1,13 @@
+{{ 
+    config(
+        materialized='view',
+        database='RAW',
+        schema='staging'
+    ) 
+}}
+
+
+
 WITH ranked_claims AS (
     SELECT
         claim_id,
