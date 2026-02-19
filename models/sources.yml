@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    database: snowflake_dt_new   # <-- Your new Snowflake database
+    schema: public
+    tables:
+      # Generate model
+      - name: raw_orders
+      # Generate model
+      - name: raw_customers
